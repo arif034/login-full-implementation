@@ -108,3 +108,56 @@
   height: 400px;
   width: 540px;
 }
+
+.username {
+  position: absolute;
+  border: none;
+  font-family: serif;
+  font-size: 16px;
+  background-color: rgb(230, 250, 255);
+  transform: translate(190px, 100px);
+  transition: all 400ms linear;
+  width: 200px;
+  height: 25px;
+}
+
+.username:hover {
+  font-size: 18px;
+  background-color: rgb(89, 150, 255);
+  width: 230px;
+  height: 27px;
+}
+
+.password {
+  position: absolute;
+  border: none;
+  font-family: serif;
+  font-size: 16px;
+  background-color: rgb(230, 250, 255);
+  transform: translate(190px, 160px);
+  transition: all 400ms linear;
+  width: 200px;
+  height: 25px;
+}
+
+.password:hover {
+  font-size: 18px;
+  background-color: rgb(89, 150, 255);
+  width: 230px;
+  height: 27px;
+}
+
+.login-btn {
+  position: absolute;
+  transform: translate(250px, 210px);
+  padding: 5px;
+  border: none;
+  background-color: rgb(89, 150, 255);
+  color: white;
+  transition: all 100ms linear;
+}
+
+.login-btn:hover {
+  padding: 7px;
+  background-color: rgb(130, 170, 255);
+}
