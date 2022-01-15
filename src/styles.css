@@ -1,4 +1,103 @@
 .App {
-  font-family: sans-serif;
+  position: absolute;
+  font-family: serif;
   text-align: center;
+  background-color: rgb(245, 245, 245);
+  color: black;
+  height: 400px;
+  width: 540px;
+}
+
+.sign-up-button-show {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  background-color: rgb(94, 164, 255);
+  border: none;
+  padding: 5px;
+  color: white;
+  transform: translate(-20px, 115px);
+  transition: all 100ms linear;
+}
+
+.sign-up-button-hide {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  background-color: rgb(94, 164, 255);
+  border: none;
+  padding: 5px;
+  color: white;
+  transform: translate(-20px, 115px);
+  transition: all 100ms linear;
+  display: none;
+}
+
+.sign-in-button-show {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  background-color: rgb(94, 164, 255);
+  border: none;
+  padding: 5px;
+  color: white;
+  transform: translate(-17px, 185px);
+  transition: all 100ms linear;
+}
+
+.sign-in-button-hide {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  background-color: rgb(94, 164, 255);
+  border: none;
+  padding: 5px;
+  color: white;
+  transform: translate(-17px, 185px);
+  transition: all 100ms linear;
+  display: none;
+}
+
+.sign-in-button-show:hover {
+  background-color: rgb(135, 180, 255);
+  padding: 6px;
+}
+
+.sign-up-button-show:hover {
+  background-color: rgb(135, 180, 255);
+  padding: 6px;
+}
+
+.sign-up-text-show {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  color: rgb(94, 164, 255);
+  transform: translate(135px, 92px);
+}
+
+.sign-up-text-hide {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  color: rgb(94, 164, 255);
+  transform: translate(135px, 92px);
+  display: none;
+}
+
+.sign-in-text-show {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  color: rgb(94, 164, 255);
+  transform: translate(150px, 160px);
+}
+
+.sign-in-text-hide {
+  position: absolute;
+  font-family: serif;
+  text-align: center;
+  color: rgb(94, 164, 255);
+  transform: translate(150px, 160px);
+  display: none;
 }
