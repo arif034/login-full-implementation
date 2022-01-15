@@ -5,6 +5,11 @@ class SignIn extends Component {
     return (
       <div>
         <Navbar />
+        <form className="sign-in-form">
+          <input className="username" type="text" placeholder="username" />
+          <input className="password" type="text" placeholder="password" />
+          <button className="login-btn">Login</button>
+        </form>
       </div>
     );
   }
