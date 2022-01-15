@@ -4,7 +4,7 @@ class SignIn extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar className="navbar" />
         <form className="sign-in-form">
           <input className="username" type="text" placeholder="username" />
           <input className="password" type="text" placeholder="password" />

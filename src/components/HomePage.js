@@ -20,7 +20,7 @@ function HomePage() {
   };
   return (
     <div className="App">
-      <Navbar />
+      <Navbar className="navbar" />
       <div className={signup_text}>
         Signup if you dont have an account already
       </div>

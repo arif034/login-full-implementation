@@ -101,3 +101,10 @@
   transform: translate(150px, 160px);
   display: none;
 }
+
+.navbar-div {
+  text-align: center;
+  position: absolute;
+  height: 400px;
+  width: 540px;
+}
