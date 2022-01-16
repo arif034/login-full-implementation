@@ -161,3 +161,29 @@
   padding: 7px;
   background-color: rgb(130, 170, 255);
 }
+
+.navbar-div {
+  background-color: rgb(130, 170, 255);
+  height: 40px;
+  width: 420px;
+  display: grid;
+  grid-template-columns: 180px 170px 180px;
+}
+
+.navbar-div > div {
+  background-color: rgb(187, 170, 255);
+  text-align: center;
+  box-shadow: 5px 5px 1px 0.5px rgba(0, 0, 255, 0.2);
+  height: 20px;
+  width: 60px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  transition: all 200ms linear;
+}
+
+.navbar-link:hover {
+  color: hotpink;
+  text-decoration: none;
+}

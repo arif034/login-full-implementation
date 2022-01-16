@@ -4,11 +4,21 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar-div">
-        <Link to="/home">Home</Link>
-        <br />
-        <Link to="/about">About</Link>
-        <br />
-        <Link to="/contacts">Contacts</Link>
+        <div>
+          <Link className="navbar-link" to="/home">
+            Home
+          </Link>
+        </div>
+        <div>
+          <Link className="navbar-link" to="/about">
+            About
+          </Link>
+        </div>
+        <div>
+          <Link className="navbar-link" to="/contacts">
+            Contacts
+          </Link>
+        </div>
       </div>
     );
   }
