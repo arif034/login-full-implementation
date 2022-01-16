@@ -7,7 +7,7 @@ class SignIn extends Component {
         <Navbar className="navbar" />
         <form className="sign-in-form">
           <input className="username" type="text" placeholder="username" />
-          <input className="password" type="text" placeholder="password" />
+          <input className="password" type="password" placeholder="password" />
           <button className="login-btn">Login</button>
         </form>
       </div>
