@@ -165,7 +165,7 @@
 .navbar-div {
   background-color: rgb(130, 170, 255);
   height: 40px;
-  width: 420px;
+  width: 415px;
   display: grid;
   grid-template-columns: 180px 170px 180px;
 }
